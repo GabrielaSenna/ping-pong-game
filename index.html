@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ping Pong</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="preparaJogo()">
+  <div id="painel">
+    <label>Dificuldade</label>
+    <input type="text" id="pnDif" value="1">
+    <label>Pontos</label>
+    <input type="text" id="pnPts" value="0">
+    <input type="button" value="Iniciar" id="pnIniciar" onclick="iniciaJogo()">
+  </div>
+  <div id="campo" style="position:absolute;top:40px;left:20px">
+    <div id="bola" style="position:absolute;top:240px;left:470px"></div>
+    <div id="jog1" style="position:absolute;top:180px;left:20px"></div>
+    <div id="jog2" style="position:absolute;top:180px;left:920px"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
